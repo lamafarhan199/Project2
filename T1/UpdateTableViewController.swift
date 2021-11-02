@@ -1,13 +1,13 @@
 //
-//  TableViewController.swift
+//  UpdateTableViewController.swift
 //  T1
 //
-//  Created by لمى فرحان on 26/03/1443 AH.
+//  Created by لمى فرحان on 27/03/1443 AH.
 //
 
 import UIKit
 
-class TableViewController: UITableViewController {
+class UpdateTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

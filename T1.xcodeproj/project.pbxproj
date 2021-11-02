@@ -16,9 +16,9 @@
 		1F279DCE272FF28200F976FF /* T1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DCD272FF28200F976FF /* T1UITests.swift */; };
 		1F279DD0272FF28200F976FF /* T1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DCF272FF28200F976FF /* T1UITestsLaunchTests.swift */; };
 		1F279DDF2730038B00F976FF /* TaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DDE2730038B00F976FF /* TaskController.swift */; };
-		1F279DE12730118700F976FF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DE02730118700F976FF /* TableViewController.swift */; };
 		1F279DE3273012F500F976FF /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DE2273012F500F976FF /* List.swift */; };
 		1F279DE5273017CD00F976FF /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DE4273017CD00F976FF /* AddViewController.swift */; };
+		1F279DEB27312D1A00F976FF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F279DEA27312D1A00F976FF /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		1F279DCD272FF28200F976FF /* T1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1UITests.swift; sourceTree = "<group>"; };
 		1F279DCF272FF28200F976FF /* T1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F279DDE2730038B00F976FF /* TaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskController.swift; sourceTree = "<group>"; };
-		1F279DE02730118700F976FF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1F279DE2273012F500F976FF /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
 		1F279DE4273017CD00F976FF /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1F279DEA27312D1A00F976FF /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +108,9 @@
 				1F279DAC272FF28100F976FF /* AppDelegate.swift */,
 				1F279DAE272FF28100F976FF /* SceneDelegate.swift */,
 				1F279DB2272FF28100F976FF /* Main.storyboard */,
+				1F279DEA27312D1A00F976FF /* UpdateViewController.swift */,
 				1F279DE4273017CD00F976FF /* AddViewController.swift */,
 				1F279DDE2730038B00F976FF /* TaskController.swift */,
-				1F279DE02730118700F976FF /* TableViewController.swift */,
 				1F279DB5272FF28200F976FF /* Assets.xcassets */,
 				1F279DB7272FF28200F976FF /* LaunchScreen.storyboard */,
 				1F279DBA272FF28200F976FF /* Info.plist */,
@@ -272,7 +272,7 @@
 				1F279DE5273017CD00F976FF /* AddViewController.swift in Sources */,
 				1F279DAF272FF28100F976FF /* SceneDelegate.swift in Sources */,
 				1F279DE3273012F500F976FF /* List.swift in Sources */,
-				1F279DE12730118700F976FF /* TableViewController.swift in Sources */,
+				1F279DEB27312D1A00F976FF /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

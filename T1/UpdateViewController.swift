@@ -1,29 +1,33 @@
 //
-//  AddViewController.swift
+//  UpdateViewController.swift
 //  T1
 //
-//  Created by لمى فرحان on 26/03/1443 AH.
+//  Created by لمى فرحان on 27/03/1443 AH.
 //
 
 import UIKit
 
-class AddViewController: UIViewController {
+class UpdateViewController: UIViewController {
     var list : List!
+    var selectedIndex : Int!
     
-    @IBOutlet weak var tf: UITextField!
-    @IBAction func Addtaped(_ sender: Any) {
-        createNewTask(userTitle: tf.text!)
+    @IBOutlet weak var TF1: UITextField!
+    
+    @IBAction func update(_ sender: Any) {
+        list.items[selectedIndex] = Task(title: TF1.text!)
         navigationController?.popViewController(animated: true)
+        
     }
-    
-    
+    override func viewWillAppear(_ animated: Bool) {
+        TF1.text = list.items[selectedIndex].title
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+//        update.§§§= list.items[selectedIndex].title
+
         // Do any additional setup after loading the view.
     }
-    func createNewTask(userTitle: String){
-        list.items.append(Task(title: userTitle))
-    }
+    
 
     /*
     // MARK: - Navigation

@@ -8,6 +8,7 @@
 import UIKit
 class TaskController: UITableViewController {
     var list = List()
+    var userSelectedCellIndex : Int!
 //    override func numberOfSections(in tableView: UITableView) -> Int {
 //        return 1
 //    }
@@ -15,7 +16,6 @@ class TaskController: UITableViewController {
         tableView.reloadData()
     }
     override func viewDidLoad() {
-
 
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,6 +28,8 @@ class TaskController: UITableViewController {
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("User select: \(indexPath.row)")
+        userSelectedCellIndex = indexPath.row
+        performSegue(withIdentifier: "editSegue", sender: self)
     }
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
@@ -42,10 +44,15 @@ class TaskController: UITableViewController {
     }
 
 
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "addSegue" {
             let addVC = segue.destination as! AddViewController
             addVC.list = list
+        } else if segue.identifier == "editSegue" {
+            let editVC = segue.destination as! UpdateViewController
+            editVC.list = list
+            editVC.selectedIndex = userSelectedCellIndex
         }
     }
 }
