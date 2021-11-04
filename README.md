@@ -3,7 +3,7 @@
  # overview
 - program will help the user to write tasks modify or delete them.
 # Usage :
-- there are functions each functions has purpose such as addition , deletion or modifition.
+- there are functions each function has purpose such as addition , deletion or modifition.
 # issues :
 update .
 # Upcoming features :
