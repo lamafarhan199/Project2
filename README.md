@@ -1,11 +1,8 @@
 # Project2
 # To Do List
  # overview
-- program that help you to orgnaize your task (you can creat new folder and modify it).
+- program will help the useres to write tasks modify or delete them
 # Usage :
-- func addtask
-- func updateTaskFromList
-- func removeTaskFromList
-- func readTask
+- there are functions each functions has purpose such as addition , deletion or modifition
 # Upcoming features :
-- sort List by completed status
+- sort items as favorite , complete
