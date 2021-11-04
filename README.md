@@ -1,7 +1,7 @@
 # Project2
 # To Do List
  # overview
-- program will help the useres to write tasks modify or delete them.
+- program will help the user to write tasks modify or delete them.
 # Usage :
 - there are functions each functions has purpose such as addition , deletion or modifition.
 # issues :
